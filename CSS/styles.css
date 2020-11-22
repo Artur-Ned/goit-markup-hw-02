@@ -1,0 +1,43 @@
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2196f3;
+}
+.nav-list-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: #2196f3;
+}
+
+.adress-list a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142px;
+  letter-spacing: 2%;
+  color: #757575;
+  text-decoration: none;
+} /*разобраться точки списка остались чёрные*/
+
+.header-mail:hover,
+.header-mail:focus {
+  color: #2196f3;
+}
+/*узнать как для двоих классов сделать один ховер и фокус*/
+.header-tel:hover,
+.header-tel:focus {
+  color: #2196f3;
+}
