@@ -41,3 +41,13 @@
 .header-tel:focus {
   color: #2196f3;
 }
+
+.titleh1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 363;
+  letter-spacing: 0.06em;
+  /*color: #ffffff;*/
+}
