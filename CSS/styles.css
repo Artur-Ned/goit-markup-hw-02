@@ -23,9 +23,11 @@ ul {
   color: #212121;
   text-decoration: none;
 }
-
 .nav-list-link:hover,
 .nav-list-link:focus {
+  color: #2196f3;
+}
+.nav-list .nav-list-link.current {
   color: #2196f3;
 }
 
