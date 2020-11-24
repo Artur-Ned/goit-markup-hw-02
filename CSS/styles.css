@@ -1,3 +1,7 @@
+ul {
+  list-style: none;
+}
+/*----------BODY------------*/
 .logotype {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -44,7 +48,7 @@
 .header-tel:focus {
   color: #2196f3;
 }
-
+/*----------Герой------------*/
 .titleh1 {
   font-family: Roboto;
   font-style: normal;
@@ -53,4 +57,76 @@
   line-height: 1, 363;
   letter-spacing: 0.06em;
   /*color: #ffffff;*/
+}
+.btn-heroy {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.06em;
+  /*color: #FFFFFF;*/
+}
+
+/*----------ОСОБЕННОСТИ------------*/
+
+.exclus-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.exclus-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*----------works foto--------------*/
+
+/*----------our team--------------*/
+.team-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-members {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-members-prof {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*----------footer--------------*/
+
+/*.log-part-w {
+  color: #ffffff;
+}
+*/
+.dres-footer-link {
+  text-decoration: none;
 }
