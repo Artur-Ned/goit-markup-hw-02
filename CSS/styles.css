@@ -1,38 +1,50 @@
 ul {
   list-style: none;
 }
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color-heder: #2196f3;
+  --accent-color-footer: #ff6347;
+  --all-text-color: #212121;
+}
+
 /*----------BODY------------*/
+body {
+  font-family: var(--main-font);
+  background-color: #ffffff;
+}
+
 .logotype {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--accent-color-heder);
 }
 .log-part2 {
-  color: #212121;
+  color: var(--all-text-color);
 }
 .nav-list-link {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 142;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--all-text-color);
   text-decoration: none;
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
-  color: #2196f3;
+  color: var(--accent-color-heder);
 }
-.nav-list .nav-list-link.current {
-  color: #2196f3;
+.nav .nav-list-link.current {
+  color: var(--accent-color-heder);
 }
 
 .adress-list a {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 142px;
@@ -42,17 +54,18 @@ ul {
 } /*разобраться точки списка остались чёрные*/
 
 .header-mail:hover,
-.header-mail:focus {
-  color: #2196f3;
-}
-/*узнать как для двоих классов сделать один ховер и фокус*/
+.header-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
-  color: #2196f3;
+  color: var(--accent-color-heder);
+}
+
+.header-mail,
+.header-tel {
+  text-decoration: none;
 }
 /*----------Герой------------*/
 .titleh1 {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -61,7 +74,6 @@ ul {
   /*color: #ffffff;*/
 }
 .btn-heroy {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 875;
@@ -72,17 +84,14 @@ ul {
 /*----------ОСОБЕННОСТИ------------*/
 
 .exclus-title {
-  font-family: Roboto;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1, 142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--all-text-color);
 }
 
 .exclus-text {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -94,27 +103,24 @@ ul {
 
 /*----------our team--------------*/
 .team-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 167;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--all-text-color);
 }
 
 .team-members {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 188;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--all-text-color);
 }
 
 .team-members-prof {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1, 188;
@@ -129,6 +135,16 @@ ul {
   color: #ffffff;
 }
 */
-.dres-footer-link {
+.adres-footer-link {
   text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 714;
+  letter-spacing: 0.03em;
+  color: green;
 }
+.adres-footer-link:hover,
+.adres-footer-link:focus {
+  color: #ff6347;
+}
+/*временно грин и томато*/
