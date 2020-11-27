@@ -38,11 +38,13 @@ body {
   text-decoration: none;
 }
 .nav-list-link:hover,
-.nav-list-link:focus {
+.nav-list-link:focus,
+.p-button:hover,
+.p-button:focus {
   color: var(--accent-color-heder);
 }
-.nav .nav-list-link.current,
-.p-button.current {
+
+.nav .nav-list-link.current {
   color: var(--accent-color-heder);
 }
 
@@ -53,7 +55,7 @@ body {
   letter-spacing: 2%;
   color: #757575;
   text-decoration: none;
-} /*разобраться точки списка остались чёрные*/
+}
 
 .header-mail:hover,
 .header-mail:focus,
@@ -133,23 +135,21 @@ body {
 
 /*----------footer--------------*/
 
-/*.log-part-w {
+.log-part-w {
   color: #ffffff;
 }
-*/
 .adres-footer-link {
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 714;
   letter-spacing: 0.03em;
-  color: green;
+  color: rgba(255, 255, 255, 0.6);
 }
 .adres-footer-link:hover,
 .adres-footer-link:focus {
-  color: #ff6347;
+  color: ;
 }
-/*временно грин и томато*/
 
 /*----------body portfoli--------------*/
 
@@ -177,4 +177,7 @@ body {
   line-height: 1, 875;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.footer {
+  background-color: #2f303a;
 }
