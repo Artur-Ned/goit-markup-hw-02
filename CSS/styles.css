@@ -55,6 +55,7 @@ body {
   line-height: 1, 142px;
   letter-spacing: 2%;
   color: #757575;
+  font-style: normal;
   text-decoration: none;
 }
 
@@ -63,12 +64,9 @@ body {
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color-heder);
-}
-
-.header-mail,
-.header-tel {
   text-decoration: none;
 }
+
 /*----------Герой------------*/
 .titleh1 {
   font-style: normal;
@@ -139,6 +137,7 @@ body {
 .log-part-w {
   color: #ffffff;
 }
+/*
 .adres-footer-link {
   text-decoration: none;
   font-weight: 400;
@@ -146,7 +145,7 @@ body {
   line-height: 1, 714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 .adres-footer-link:hover,
 .adres-footer-link:focus {
   color: var(--accent-color-heder);
@@ -182,6 +181,8 @@ body {
 .footer {
   background-color: #2f303a;
 }
-.adres-footer-link adress {
+
+a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
+{
   color: #ffffff;
 }
