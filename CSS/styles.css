@@ -48,7 +48,8 @@ body {
   color: var(--accent-color-heder);
 }
 
-.adress-list a {
+.adress-list a,
+.adres-footer a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 142px;
@@ -148,7 +149,7 @@ body {
 }
 .adres-footer-link:hover,
 .adres-footer-link:focus {
-  color: ;
+  color: var(--accent-color-heder);
 }
 
 /*----------body portfoli--------------*/
@@ -180,4 +181,7 @@ body {
 }
 .footer {
   background-color: #2f303a;
+}
+.adres-footer-link adress {
+  color: #ffffff;
 }
